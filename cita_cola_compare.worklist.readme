@@ -1,0 +1,49 @@
+
+
+1. For CITA OR cola, you can plot:
+	
+	a. At different z, what does xi(s), xi(mu) look like?
+
+		Plot them togehter?
+
+	b. Make a difference-plot?
+
+		Plot xi (high z ) - xi(z=0)
+
+	c. Only look at the shape?
+		for each curve, normalize it 
+		使得曲线的每个点都在1附近。
+		xavg = mean(x)/len(X); X = [xx/xavg for xx in X];
+		(replot a, b using only shape)
+
+2. We also compare CITA, cola...
+
+	a. Fix a redshift, plot xi(s), xi(mu) from CITA, cola together...
+
+	b. Plot how the difference evolove with z
+
+		横坐标: z; 纵坐标：曲线在某个位置上的差异百分比	(最左边，最右边)
+
+	c. Compare the redshift evolution?
+
+		x: z; y: redshift evolution at that z
+
+
+3. You may want to make a cut at small value of 1-mu
+	(e.g., I often impose 1-mu>0.05)
+
+
+4. If you compare xi(s), you may do it bin by bin   
+
+	e.g., first compare 
+		s=5-50
+	than
+		50-100
+	than
+		100-150
+
+
+
+
+
+

@@ -3,6 +3,9 @@ git add *.sh
 git add *.py
 git add README.md
 
+##
+git add *.readme
+
 ## src
 git add src/*.py
 git add src/*.ipynb
