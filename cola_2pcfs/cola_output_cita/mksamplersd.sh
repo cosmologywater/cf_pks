@@ -1,5 +1,5 @@
 
-for nowfile in cola_cita_015 cola_cita_014 cola_cita_013 cola_cita_012 cola_cita_011
+for nowfile in cola_cita_05 cola_cita_06 cola_cita_07 cola_cita_08 cola_cita_09 cola_cita_10 
 do
 #nowfile=gadget_001.rat0.0027_ranseed0
 
@@ -12,7 +12,7 @@ om=0.2951
 
 # add RSD
 #do
-#        LSS_SnapshotRSDmock -input ${nowfile} -xyzmin 0 -xyzmax 800 -xcol 1 -ycol 2 -zcol 3 -vxcol 4 -vycol 5 -vzcol 6 -redshift 0 -omegam ${om} -w -1 -shiftx T -shifty T -shiftz T -shiftr T
+LSS_SnapshotRSDmock -input ${nowfile} -xyzmin 0 -xyzmax 800 -xcol 1 -ycol 2 -zcol 3 -vxcol 4 -vycol 5 -vzcol 6 -redshift 0 -omegam ${om} -w -1 -shiftx T -shifty T -shiftz T -shiftr T
 #done
 # 1. radeczw file, whole sample
 
