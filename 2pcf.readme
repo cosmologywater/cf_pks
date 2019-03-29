@@ -1,4 +1,12 @@
 
+The marked CFs are the files where the name have "rho-1"
+
+-1 means the weights are rho^-1. YOu will also find "rho-0.8" "rho-0.5" files.
+
+They are stored in Shisan's computer: /home/xiaodongli/data/CITAData/subsamples/...
+
+Many files will be ready in 3 days (current files not complete, have some mistakes); you may go to shisan's office to copy from computer
+
 # We have 150*120 (s,mu).
 
 1. The first line of the .2pcf file:
