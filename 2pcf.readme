@@ -1,7 +1,7 @@
-
+  
 The marked CFs are the files where the name have "rho-1"
 
--1 means the weights are rho^-1. YOu will also find "rho-0.8" "rho-0.5" files.
+-1 means the weights are rho^-1. You will also find "rho-0.8" "rho-0.5" files.
 
 They are stored in Shisan's computer: /home/xiaodongli/data/CITAData/subsamples/...
 
