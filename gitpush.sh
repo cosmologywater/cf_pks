@@ -5,6 +5,10 @@ git add README.md
 
 ##
 git add *.readme
+git add */Redshift*
+git add */*.sh
+git add */*.py
+
 
 ## src
 git add src/*.py
