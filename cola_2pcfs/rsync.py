@@ -8,3 +8,6 @@ for nowdir in commands.getoutput('ls /public/projects/simulation').split():
     commands.getoutput('rsync -avrP /public/projects/simulation/'+nowdir+'/*.lua '+nowdir) 
     commands.getoutput('rsync -avrP /public/projects/simulation/'+nowdir+'/*.py '+nowdir) 
     commands.getoutput('rsync -avrP /public/projects/simulation/'+nowdir+'/*.dat '+nowdir) 
+    commands.getoutput('rsync -avrP /public/projects/simulation/'+nowdir+'/Makefile '+nowdir) 
+for nowfile in ['Makefile', 'Note', 'configure', 'parameter_file', 'outputs', 'Makefile.sample']:
+    commands.getoutput('rsync -avrP /public/projects/simulation/'+nowfile+'  ./') 
