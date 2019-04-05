@@ -1,7 +1,7 @@
 random_seed= 200
 -- cola code parameter file
 nc  =  512
-boxsize = 1024.0
+boxsize = 512.0
 
 nrealization= 1   -- multiple realisations for random_seed, random_seed+1, ...
 
@@ -9,7 +9,7 @@ nrealization= 1   -- multiple realisations for random_seed, random_seed+1, ...
 ntimestep= 10
 a_final= 1.0
 -- output_redshifts= {0.73, 0.6, 0.44, 0.0}  -- redshifts of output
-output_redshifts= {1.0, 0.5, 0.0}  -- redshifts of output
+output_redshifts= {1.5, 1.0, 0.5, 0.3}  -- redshifts of output
 
 omega_m = 0.307115
 h       = 0.6777
@@ -36,7 +36,7 @@ linking_factor= 0.2        -- FoF linking length= linking_factor*mean_separation
 
 -- Dark matter particle subsample
 subsample= "sub"        -- base filename
-subsample_factor= 0.03     -- fraction of particles to output
+subsample_factor= 0.01    -- fraction of particles to output
 
 -- Dark matter density grid
 coarse_grid= "grid"     -- base filename

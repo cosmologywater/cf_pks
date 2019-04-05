@@ -20,6 +20,7 @@ git add cola_2pcfs/*/*.2pcf
 git add cola_2pcfs/*/param.lua
 git add cola_2pcfs/*/*.sh
 git add cola_2pcfs/*/*.py
+git add cola_2pcfs/*/*.dat
 git add cola_2pcfs/*.ipynb
 
 ## BigMD related
