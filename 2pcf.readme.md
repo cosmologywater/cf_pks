@@ -39,7 +39,7 @@
     
 	对某给定的$\mu$，把在$s_1\leq s\leq s_2$内的所有$\xi(s,\mu)$加起来。
     
-	(fig 16) http://cn.arxiv.org/pdf/1609.05476 有图片供参考，得到的图像应与之类似
+	(fig 6) http://cn.arxiv.org/pdf/1609.05476 有图片供参考，得到的图像应与之类似
     
 	x-axis: $1-\mu$
     
