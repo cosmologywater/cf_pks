@@ -40,6 +40,8 @@ git add BigMD_2pcfs/Redshift*
 ## cola for machine learning
 git add cola_mls/*.dat
 git add cola_mls/*.sh
+git add cola_mls/*/*.dat
+git add cola_mls/*/*.sh
 
 git commit -m  'upload many things '
 git push
