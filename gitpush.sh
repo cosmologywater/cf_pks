@@ -35,6 +35,7 @@ git add cola_2pcfs/*.ipynb
 ## BigMD related
 git add BigMD_2pcfs/*.2pcf
 git add BigMD_2pcfs/Redshift*
+git add BigMD_2pcfs/snaps/*.2pcf
 
 
 ## cola for machine learning
