@@ -1,6 +1,6 @@
 
 
-for datafile in matchfof.nbar-4.7e-4.shiftr.om0.3071_w-1.0000.radeczw
+for datafile in ahfcola_halos.nbar-4.7e-4.shiftr.om0.3071_w-1.0000.radeczw
 do
 	ranfile=fof00001c.nbar-4.7e-4.x30ran0.om0.3071_w-1.0000.radeczw
 

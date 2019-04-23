@@ -1,7 +1,7 @@
 
 # 0. Settings
 
-nowfile=matchmaker_fof
+nowfile=ahfcola_halos
 
 nbar=4.7e-4
 
@@ -31,7 +31,7 @@ om=0.3071
 
 # 1. radeczw file, whole sample
 
-#awk < ${nowfile}.txt '{print $2,$3,$4}' > ${nowfile}.xyz
+#awk < matchmaker_fof.txt '{print $3,$4,$5,$6,$10,$11,$12}' > matchmaker_fof.xyz
 
 #LSS_XYZWToRaDecZW -inputfile ${nowfile}.xyz -om 0.307115 
 
@@ -43,7 +43,7 @@ om=0.3071
 
 nowfile_degraded=${nowfile}.nbar-${nbar}
 
-LSS_rmass_stat -input ${nowfile}.txt -rmin 0 -rmax 50000 -massmin 2 -massmax 1000000 -numrbin 1 -nummassbin 1000 -xcol 4 -ycol 5 -zcol 6 -masscol 3 -dodegrade T -numdegrade ${ngal} -logmass T -degradedfile ${nowfile}.nbar-${nbar}
+LSS_rmass_stat -input ${nowfile} -rmin 0 -rmax 50000 -massmin 2 -massmax 1000000000000000000 -numrbin 1 -nummassbin 1000 -xcol 1 -ycol 2 -zcol 3 -masscol 7 -dodegrade T -numdegrade ${ngal} -logmass T -degradedfile ${nowfile}.nbar-${nbar}
 
 #awk < ${nowfile_degraded} '{print $2,$3,$4}' > ${nowfile_degraded}.xyz
 
@@ -54,11 +54,11 @@ LSS_rmass_stat -input ${nowfile}.txt -rmin 0 -rmax 50000 -massmin 2 -massmax 100
 #rm ${nowfile_degraded}.xyz
 
 # 3. add RSD
-LSS_SnapshotRSDmock -input ${nowfile_degraded}  -xyzmin 0 -xyzmax 1024 -xcol 2 -ycol 3 -zcol 4 -vxcol 5 -vycol 6 -vzcol 7 -redshift 0 -omegam ${om} -w -1 -shiftx T -shifty T -shiftz T -shiftr T
+LSS_SnapshotRSDmock -input ${nowfile_degraded}  -xyzmin 0 -xyzmax 1024 -xcol 1 -ycol 2 -zcol 3 -vxcol 4 -vycol 5 -vzcol 6 -redshift 0 -omegam ${om} -w -1 -shiftx T -shifty T -shiftz T -shiftr T
 
 # 1. radeczw file, whole sample
 
-for suffix in '' .shiftr .shiftx .shifty .shiftz
+for suffix in .shiftr .shiftx .shifty .shiftz
 do
        file1=${nowfile_degraded}${suffix}
        LSS_XYZWToRaDecZW -inputfile ${file1} -om $om -w -1
