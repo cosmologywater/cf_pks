@@ -18,6 +18,7 @@ git add src/*.sh
 ## CITA Data related
 git add CITAData/Redshifts.txt
 git add CITAData/subsamples/*.2pcf
+git add CITAData/rockstar_halos/*.2pcf
 
 ## cola related
 for nowfile in Makefile    Note    configure    parameter_file    outputs    Makefile.sample 
