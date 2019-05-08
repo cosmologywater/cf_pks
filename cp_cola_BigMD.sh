@@ -1,2 +1,2 @@
-rsync -avrP /public/projects/simulation/cola_output_512par_BigMD/*.2pcf ./cola_2pcfs/cola_output_512par_BigMD/
+rsync -avrP /public/projects/simulation/cola_output_600par_512box_BigMD/*.2pcf ./cola_2pcfs/cola_output_600par_512box_BigMD/
 
