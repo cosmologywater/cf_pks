@@ -1,2 +1,0 @@
-#LSS_rmass_stat -input fof00001c.txt -rmin 0 -rmax 5000 -massmin 2 -massmax 1000000 -numrbin 1 -nummassbin 1000 -xcol 2 -ycol 3 -zcol 4 -masscol 1 -dodegrade T -numdegrade 470387 -logmass T
-LSS_rmass_stat -input fof00001c.txt -rmin 0 -rmax 5000 -massmin 2 -massmax 1000000 -numrbin 1 -nummassbin 1000 -xcol 2 -ycol 3 -zcol 4 -masscol 1 -dodegrade T -numdegrade 505075 -logmass T -degradedfile fof00001c.nbar-4.70e-4
